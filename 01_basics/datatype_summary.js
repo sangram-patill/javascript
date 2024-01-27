@@ -3,9 +3,9 @@
 
 // const id = Symbol('123')
 // const anotherId = Symbol('123')
-// console.log(id)
-// console.log(anotherId);
-// console.log(id === anotherId);
+// console.log(id)  //Output => Symbol(123)
+// console.log(anotherId); //Output => Symbol(123)
+// console.log(id === anotherId); //Output => false
 
 
 //Non-primitive datatype => reference of datatype
@@ -22,7 +22,7 @@
 const myFunction = function(){
     console.log("hello world");
 }
-console.log(typeof myFunction);    
+console.log(typeof myFunction);    // Output => function
 
 /**************************************Stack and Heap Memory******************************************/
 

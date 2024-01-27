@@ -17,4 +17,4 @@ let isLoggedIn = true
 //Object
 
 console.log(typeof null);  //Object
-console.log(typeof undefined); //undefinedj
+console.log(typeof undefined); //undefined
