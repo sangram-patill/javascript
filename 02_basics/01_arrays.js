@@ -33,5 +33,6 @@ const myArr = [1,2,3,4,5,6]
 console.log(myArr.slice(1,3)); //do not change the original array only slice the array first value = starting index and second value = mention how many element you want  //output => [ 2, 3 ]
 console.log(myArr); //output => [ 1, 2, 3, 4, 5, 6 ]
 
-console.log(myArr.splice(2,3)); // it change the original array first value = starting index second value = from given index how many elements you need to splice [ 3, 4, 5 ]
+console.log(myArr.splice(2,3)); // it change the original array first value = starting index second value = from given index how many elements you need to splice 
+// [ 3, 4, 5 ]
 console.log(myArr); // [ 1, 2, 6 ]
