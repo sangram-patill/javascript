@@ -10,7 +10,6 @@ function add(num1,num2){
     //return num1+num2 //another way to write the return
 }
 
-
 // let result = add(10,20);
 // console.log(result);
 

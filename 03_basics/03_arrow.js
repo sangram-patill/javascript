@@ -43,7 +43,7 @@ const user = {
 // console.log(add(10,11)); //21
 
 //Implicit return 
-const add = (num1,num2)=> num1 + num2; //This expression is called implicit expression. It has only work with one expression
+const add = (num1,num2)=> num1 + num2; //This expression is called as implicit expression. It has only work with one expression
 console.log(add(10,10)); //20
 
 //Another type of implicit function 
@@ -56,6 +56,10 @@ console.log(add(10,10)); //20
 
 const test = ()=> ({username : 'sangram'});
 console.log(test()); //{ username: 'sangram' }
+
+// const obj = ()=>({user:'sangru', gender : 'Male'})
+// console.log(obj().user) //sangru
+// console.log(obj()['gender']) //Male
 
 
 

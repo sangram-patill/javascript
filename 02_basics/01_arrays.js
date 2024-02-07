@@ -13,7 +13,7 @@
 // arr1.pop()
 // console.log(arr1);
 
-const num = [20,30,40,50,60]
+// const num = [20,30,40,50,60]
 // console.log(num);
 // num.unshift(10)   //add the value at first index
 // console.log(num);
@@ -23,16 +23,16 @@ const num = [20,30,40,50,60]
 // console.log(num.indexOf(700)); // not present => -1
 // console.log(num.includes(70)); // the item which is not exist it written the false
 
-// const newArr = num.join()
-// console.log(newArr); // it convert array into string by comma separeted value
+// const newArr = num.join(); // it convert array into string by comma separated  value 
+// console.log(newArr); // 20,30,40,50,60
 // console.log(typeof newArr); //string
 
-/************slice and splice************** */
+/************slice and splice***************/
 
-const myArr = [1,2,3,4,5,6]
-console.log(myArr.slice(1,3)); //do not change the original array only slice the array first value = starting index and second value = mention how many element you want  //output => [ 2, 3 ]
-console.log(myArr); //output => [ 1, 2, 3, 4, 5, 6 ]
+// const myArr = [1,2,3,4,5,6]
+// console.log(myArr.slice(1,3)); //do not change the original array only slice the array first value = starting index and second value = mention how many element you want  //output => [ 2, 3 ]
+// console.log(myArr); //output => [ 1, 2, 3, 4, 5, 6 ]
 
-console.log(myArr.splice(2,3)); // it change the original array first value = starting index second value = from given index how many elements you need to splice 
+// console.log(myArr.splice(2,3)); // it change the original array. First value = starting index second value = from given index how many elements you need to splice 
 // [ 3, 4, 5 ]
-console.log(myArr); // [ 1, 2, 6 ]
+// console.log(myArr); // [ 1, 2, 6 ]

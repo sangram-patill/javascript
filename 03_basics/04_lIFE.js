@@ -5,7 +5,7 @@
 //Name IIFE
 // (function chai(){ 
 //     console.log('DB Connected..!');
-// })(); //semi colon is compulsory to know the where is code ended.
+// })(); //semi colon is compulsory to know the where is code ended when you use the multiple IIF
 
 // (()=>{
 //     console.log('Database Connected with arrow function');
