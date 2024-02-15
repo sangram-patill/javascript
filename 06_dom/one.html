@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <h1>Hello</h1>
+    <p id="text">Lorem ipsum dolor sit amet consectetur.<span style="display: none;">hidden text</span></p>
+    <!-- text.innerText => 'Lorem ipsum dolor sit amet consectetur.'
+         text.textContent => 'Lorem ipsum dolor sit amet consectetur.hidden text'
+    -->
+    <!-- 
+        querySelector => It takes the first element
+     -->
+     <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+     </ul>
+     <!-- const li = document.querySelectorAll('li')
+            NodeList(3) [li, li, li] => But it is not a array
+            li[0].style.color = 'Orange'
+            li[1].innerText     
+        -->
+        <!-- 
+            li.forEach((l)=>{
+                l.style.color = 'red';
+            })
+         -->
+         <ul>
+            <li class="list">List 1</li>
+            <li class="list">List 2</li>
+            <li class="list">List 3</li>
+         </ul>
+         <!-- 
+            const list = document.getElementsByClassName('list');
+             => HTMLCollection(3) [li.list, li.list, li.list] 
+             We are geeting the HTMLCollection 
+             To convert it into array use Array.from(list) you can get array
+          -->
+          <h2>First Heading</h2>
+          <h2>Second Heading</h2>
+          <h2>Third Heading</h2>
+          <!-- const heading = document.querySelectorAll('h2')
+            heading[0].innerText
+            heading.forEach((obj)=>{
+                obj.style.color = 'orange'
+            })
+        -->
+</body>
+</html>
